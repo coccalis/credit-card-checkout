@@ -1,5 +1,7 @@
-# credit-card-checkout
+# Credit-card-checkout
 A Credit Card Checkout Form Template made with html, css(bootstrap) and javascript.
+
+Live Demo: https://coccalis.github.io/credit-card-checkout/
 
 **Colors used:** `#000000` `#150050` `#3F0071` `#610094`
 

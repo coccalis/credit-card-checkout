@@ -21,9 +21,12 @@ body{
     border-radius: 32px;
 }
 
-.container{
-    margin: 5% 15%;
-    padding: 2%;
+.center{
+  min-height: 100%;
+  min-height: 100vh; 
+  display: flex;
+  align-items: center;
+  
 }
 
 #right-side{

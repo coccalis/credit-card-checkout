@@ -17,82 +17,89 @@
 </head>
 <body>
 
-    <div class="glass-effect container">
-        <!-- Top of the container -->
-        <div class="row">
-            <div class="col">
-                <h3 class="text-white fw-bold">Credit Card Checkout</h3>
-            </div>
-        </div>
-        <!-- Middle of the container -->
-        <div class="row mt-3">
-            <div class="col-md-6">
-                <!-- Credit card template -->
-                <div class="credit-card">
-                    <div class="row">
-                        <div class="col mt-5 ms-4 mb-2">
-                            <h3 class="text-white">****&emsp;****&emsp;****&emsp;3456</h3>
-                        </div>
-                    </div>
-                    <div class="row mt-3 ms-2">
-                        <div class="col">
-                            <h5 class="text-white">John Doe</h5>
-                        </div>
-                    </div>
-                    <div class="row mt-2 ms-2">
-                        <div class="col-sm-2">
-                            <p class="text-white"> 11/26</p>
-                        </div>
-                        <div class="col-sm-3">
-                            <p class="text-white"><span style="color: rgba(255, 255, 255, 0.76) ;">CVV:</span> 456</p>
-                        </div>
-                        <div class="col">
-                            <img class="float-end m-2" src="css/visa.png" alt="credit card" width="25%">
-                        </div>
-                    </div>
-                </div>
-                <div class="mt-5">
-                    <h3 class="text-white">Total Amount:</h3>
-                    <h1 class="text-white">100$</h1>
+    <div class="center">
+        <div class="glass-effect container ">
+            <!-- Top of the container -->
+            <div class="row mt-3">
+                <div class="col">
+                    <h3 class="text-white fw-bold">Credit Card Checkout</h3>
                 </div>
             </div>
-            <div class="col" id="right-side">
-                <h3 class="text-white">Customers Information</h3>
-                <div class="form-floating mb-3 mt-3">
-                    <input type="name" class="form-control" id="floatingInput" placeholder="name" required>
-                    <label for="floatingInput">Full Name</label>
+            <!-- Middle of the container -->
+            <div class="row mt-3">
+                <div class="col-md-6">
+                    <!-- Credit card template -->
+                    <div class="credit-card">
+                        <div class="row">
+                            <div class="col mt-5 ms-4 mb-2">
+                                <h3 class="text-white">****&emsp;****&emsp;****&emsp;3456</h3>
+                            </div>
+                        </div>
+                        <div class="row mt-3 ms-2">
+                            <div class="col">
+                                <h5 class="text-white">John Doe</h5>
+                            </div>
+                        </div>
+                        <div class="row mt-2 ms-2">
+                            <div class="col-sm-2">
+                                <p class="text-white"> 11/26</p>
+                            </div>
+                            <div class="col-sm-3">
+                                <p class="text-white"><span style="color: rgba(255, 255, 255, 0.76) ;">CVV:</span> 456</p>
+                            </div>
+                            <div class="col">
+                                <img class="float-end m-2" src="css/visa.png" alt="credit card" width="25%">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-5">
+                        <h3 class="text-white">Total Amount:</h3>
+                        <h1 class="text-white">100$</h1>
+                    </div>
                 </div>
-                <div class="form-floating mb-3 mt-3">
-                    <input type="email" class="form-control" id="floatingInput" placeholder="email" required>
-                    <label for="floatingInput">Email <Address></Address></label>
-                </div>
-                <hr style="color: rgba(255, 255, 255, 0.651);" class="mt-4">
-                <h3 class="text-white">Payment Information</h3>
-                <form autocomplete="off">
+                <div class="col" id="right-side">
+                    <h3 class="text-white">Customers Information</h3>
                     <div class="form-floating mb-3 mt-3">
-                        <input class="form-control" id="cc" value="" placeholder="cardnumber" required>
-                        <label for="floatingInput">Credit Card Number</label>
+                        <input type="name" class="form-control" id="floatingInput" placeholder="name" required>
+                        <label for="floatingInput">Full Name</label>
                     </div>
                     <div class="form-floating mb-3 mt-3">
-                        <input type="name" class="form-control" id="floatingInput" placeholder="name card" required>
-                        <label for="floatingInput">Card Holder Name</label>
+                        <input type="email" class="form-control" id="floatingInput" placeholder="email" required>
+                        <label for="floatingInput">Email <Address></Address></label>
                     </div>
-                    <div class="d-flex">
+                    <hr style="color: rgba(255, 255, 255, 0.651);" class="mt-4">
+                    <h3 class="text-white">Payment Information</h3>
+                    <form autocomplete="off">
                         <div class="form-floating mb-3 mt-3">
-                            <input type="month" class="form-control" id="date" placeholder="expirydate" min="2010-01" max="2030-12" required>
-                            <label for="floatingInput">Expiry Date</label>
+                            <input class="form-control" id="cc" value="" placeholder="cardnumber" required>
+                            <label for="floatingInput">Credit Card Number</label>
                         </div>
-                        <div class="form-floating mb-3 mt-3 ms-5">
-                            <input type="number" class="form-control" id="cvv" placeholder="cvv" maxlength="3" required>
-                            <label for="floatingInput">CVV</label>
+                        <div class="form-floating mb-3 mt-3">
+                            <input type="name" class="form-control" id="floatingInput" placeholder="name card" required>
+                            <label for="floatingInput">Card Holder Name</label>
                         </div>
+                        <div class="d-flex">
+                            <div class="form-floating mb-3 mt-3">
+                                <input type="month" class="form-control" id="date" placeholder="expirydate" min="2010-01" max="2030-12" required>
+                                <label for="floatingInput">Expiry Date</label>
+                            </div>
+                            <div class="form-floating mb-3 mt-3 ms-5">
+                                <input type="number" class="form-control" id="cvv" placeholder="cvv" maxlength="3" required>
+                                <label for="floatingInput">CVV</label>
+                            </div>
+                        </div>
+                    </form>
+                    
+                    <div class="float-start my-3">
+                        <a class="checkout-btn" href="">Complete Payment</a>
                     </div>
-                </form>
-                
-                <div class="float-start my-3">
-                    <a class="checkout-btn" href="">Complete Payment</a>
+    
                 </div>
-
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p>&emsp;</p>
+                </div>
             </div>
         </div>
     </div>
